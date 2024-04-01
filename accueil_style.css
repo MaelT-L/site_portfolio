@@ -1,0 +1,93 @@
+body {
+    background-image: url("pictures/Fond_accueil.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 50px;
+    color: #ffffff;
+}
+
+/*Navigation style*/
+.navigation {
+    margin: -15px 0px 20px;
+    /* font-size: 17px; */
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px
+}
+
+.nav-link-left {
+    margin-right: -25em;
+}
+
+.nav-link-right {
+    margin-left: -25em;
+}
+
+/*Presentation style*/
+.presentation {
+    margin: 10em 250px 15em;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 0.5em;
+}
+
+.presentation_text {
+    font-size: 20px;
+}
+
+/*About*/
+.about {
+    margin-bottom: 5em;
+}
+
+.title {
+    margin-bottom: 2em;
+}
+
+.title-size {
+    font-size: 50px;
+}
+
+.about-image {
+    max-width: 200px;
+    height: auto;
+    margin-right: 7em;
+}
+
+/*Footer*/
+.link-footer {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer .barre {
+    border-top: 1px solid #ffffff;
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+.footer .col-4 {
+    margin-top: 1em;
+}
+
+.github-link {
+    margin-left: 30em;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.linkedin-link {
+    margin-right: 30em;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
