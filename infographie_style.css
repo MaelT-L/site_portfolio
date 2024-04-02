@@ -39,6 +39,12 @@ body {
     margin-bottom: 1em;
 }
 
+.link-figma {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ea7288;
+}
+
 /*Publication 1*/
 .publication1 {
     margin-bottom: 4em;
