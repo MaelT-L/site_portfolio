@@ -43,6 +43,10 @@ body {
     margin-bottom: 1em;
 }
 
+.language {
+    font-weight: bold;
+}
+
 .link-github {
     text-decoration: none;
     font-weight: bold;

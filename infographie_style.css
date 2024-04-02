@@ -43,6 +43,10 @@ body {
     margin-bottom: 1em;
 }
 
+.logiciel {
+    font-weight: bold;
+}
+
 .link-externe {
     text-decoration: none;
     font-weight: bold;

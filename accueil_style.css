@@ -35,16 +35,27 @@ body {
 
 /*Presentation style*/
 .presentation {
-    margin: 5em 250px 15em;
+    margin: 10em 250px 15em;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 51.3px;
+    font-weight: bold;
     margin-bottom: 0.5em;
 }
 
 .presentation_text {
     font-size: 20px;
+}
+
+.github {
+    font-weight: bold;
+    color: #6891e1;
+}
+
+.pinterest {
+    font-weight: bold;
+    color: #ea7288;
 }
 
 /*About*/
