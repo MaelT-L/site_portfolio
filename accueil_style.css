@@ -10,7 +10,7 @@ body {
 
 /*Navigation style*/
 .navigation {
-    margin: -15px 0px 20px;
+    margin: 0 auto;
     /* font-size: 17px; */
 }
 
@@ -31,7 +31,7 @@ body {
 
 /*Presentation style*/
 .presentation {
-    margin: 10em 250px 15em;
+    margin: 5em 250px 15em;
 }
 
 h1 {
