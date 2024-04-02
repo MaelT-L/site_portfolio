@@ -8,6 +8,10 @@ body {
     color: #ffffff;
 }
 
+.text-content {
+    text-align: justify;
+}
+
 /*Navigation style*/
 .navigation {
     margin: 0 auto;
@@ -22,11 +26,11 @@ body {
 }
 
 .nav-link-left {
-    margin-right: -15em;
+    margin-right: -17em;
 }
 
 .nav-link-right {
-    margin-left: -15em;
+    margin-left: -17em;
 }
 
 /*Presentation style*/
@@ -72,14 +76,20 @@ body {
 }
 
 .github-link {
-    margin-left: 30em;
+    margin-left: 20em;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pinterest-link {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
 }
 
 .linkedin-link {
-    margin-right: 30em;
+    margin-right: 20em;
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
