@@ -35,7 +35,7 @@ body {
 
 /*Presentation style*/
 .presentation {
-    margin: 5em 250px 50px;
+    margin: 5em 300px 50px;
 }
 
 .title {
@@ -47,7 +47,7 @@ body {
     font-weight: bold;
 }
 
-.link-github {
+.link-externe {
     text-decoration: none;
     font-weight: bold;
     color: #6891e1;
