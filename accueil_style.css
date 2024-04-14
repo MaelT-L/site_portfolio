@@ -113,3 +113,91 @@ h1 {
     color: #ffffff;
     font-weight: bold;
 }
+
+/*RESPONSIVE*/
+
+@media (max-width: 900px) {
+    
+    /*Navigation*/
+    .link {
+        display: block;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 13px;
+        margin-bottom: 10px; 
+        text-align: center;
+    }
+
+    .nav-link-left {
+        margin-right: 0;
+    }
+
+    .nav-link-right {
+        margin-left: 0;
+    }
+
+    /*Presentation*/
+    .presentation {
+        margin: 5em 50px 7em;
+    }
+
+    h1 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .presentation_text {
+        font-size: 18px;
+        /* padding-bottom: 5px; */
+    }
+
+    /*About*/
+
+    .title-size {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .text-content {
+        text-align: justify;
+        margin-top: 1em;
+        font-size: 16px;
+    }
+
+    .about-image {
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto 1em;
+        display: block;
+    }
+
+    .col-6 {
+        flex-basis: 100%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    /*Footer*/
+    .link-footer {
+        display: block;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 13px;
+        margin-bottom: 0px; 
+        text-align: center;
+    }
+    
+    
+    .github-link {
+        margin-left: 0;
+    }
+
+    .linkedin-link {
+        margin-right: 0;
+    }
+}
+
