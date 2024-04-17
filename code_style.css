@@ -103,3 +103,89 @@ body {
     color: #ffffff;
     font-weight: bold;
 }
+
+@media (max-width: 900px) {
+
+    /*Navigation*/
+    .link {
+        display: block;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 13px;
+        margin-bottom: 10px; 
+        text-align: center;
+    }
+
+    .nav-link-left {
+        margin-right: 0;
+    }
+
+    .nav-link-right {
+        margin-left: 0;
+    }
+
+    .presentation {
+        margin: 5em 50px 2em; /* Réduction de la marge inférieure */
+    }
+
+    .title {
+        font-size: 30px; /* Réduction de la taille de la police du titre */
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none; /* Masquer les contrôles de carousel pour l'instant */
+    }
+
+    .carousel-item {
+        text-align: center; /* Centrer le texte de la légende du carousel */
+    }
+
+    .text-content {
+        margin-top: 1em;
+    }
+
+    .col-6 {
+        flex-basis: 100%;
+        margin-bottom: 1em; /* Espacement entre les colonnes */
+        text-align: center; /* Centrage du contenu */
+    }
+
+    .carousel-caption {
+        text-align: center; /* Centrer le texte de la légende du carousel */
+    }
+
+    .description {
+        font-size: 18px; /* Ajustement de la taille de la police de la légende */
+    }
+
+    .carousel-item img {
+        max-width: 80%; /* Réduire la largeur des images à 80% */
+        height: auto;
+        margin: 0 auto 1em; /* Centrer horizontalement l'image et ajouter un espacement en bas */
+        display: block; /* Rendre l'image un bloc pour le centrage */
+    }
+
+     /*Footer*/
+     .link-footer {
+        display: block;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 13px;
+        margin-bottom: 0px; 
+        text-align: center;
+    }
+    
+    
+    .github-link {
+        margin-left: 0;
+    }
+
+    .linkedin-link {
+        margin-right: 0;
+    }
+}
