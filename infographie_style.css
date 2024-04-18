@@ -126,3 +126,104 @@ body {
     color: #ffffff;
     font-weight: bold;
 }
+
+@media (max-width: 576px) {
+
+    /*Navigation*/
+    .link {
+        display: block;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 13px;
+        margin-bottom: 10px; 
+        text-align: center;
+    }
+
+    .nav-link-left {
+        margin-right: 0;
+    }
+
+    .nav-link-right {
+        margin-left: 0;
+    }
+
+    .presentation {
+        margin: 5em 50px 2em; 
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    /*Publications*/
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-item {
+        text-align: center;
+    }
+
+    .text-content {
+        margin-top: 1em;
+    }
+
+    .col-6 {
+        flex-basis: 100%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .carousel-caption {
+        text-align: center; 
+    }
+
+    .description {
+        font-size: 18px; 
+    }
+
+    .carousel-item img {
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto 1em; 
+        display: block; 
+    }
+
+    /*FOOTER*/
+    .link-footer {
+        display: block;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 13px;
+        margin-bottom: 0px; 
+        text-align: center;
+    }
+    
+    
+    .github-link {
+        margin-left: 0;
+    }
+
+    .linkedin-link {
+        margin-right: 0;
+    }
+
+    .carrousel-left,
+    .carrousel-right,
+    .texte-right,
+    .texte-left {
+        order: initial; 
+    }
+}
+
+@media (min-width: 768px) {
+    .order-md-last {
+        order: 2; 
+    }
+}

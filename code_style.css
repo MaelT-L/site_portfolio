@@ -127,20 +127,21 @@ body {
     }
 
     .presentation {
-        margin: 5em 50px 2em; /* Réduction de la marge inférieure */
+        margin: 5em 50px 2em; 
     }
 
     .title {
-        font-size: 30px; /* Réduction de la taille de la police du titre */
+        font-size: 30px;
     }
 
+    /*Publications*/
     .carousel-control-prev,
     .carousel-control-next {
-        display: none; /* Masquer les contrôles de carousel pour l'instant */
+        display: none;
     }
 
     .carousel-item {
-        text-align: center; /* Centrer le texte de la légende du carousel */
+        text-align: center;
     }
 
     .text-content {
@@ -149,23 +150,23 @@ body {
 
     .col-6 {
         flex-basis: 100%;
-        margin-bottom: 1em; /* Espacement entre les colonnes */
-        text-align: center; /* Centrage du contenu */
+        margin-bottom: 1em;
+        text-align: center;
     }
 
     .carousel-caption {
-        text-align: center; /* Centrer le texte de la légende du carousel */
+        text-align: center; 
     }
 
     .description {
-        font-size: 18px; /* Ajustement de la taille de la police de la légende */
+        font-size: 18px; 
     }
 
     .carousel-item img {
-        max-width: 80%; /* Réduire la largeur des images à 80% */
+        max-width: 80%;
         height: auto;
-        margin: 0 auto 1em; /* Centrer horizontalement l'image et ajouter un espacement en bas */
-        display: block; /* Rendre l'image un bloc pour le centrage */
+        margin: 0 auto 1em; 
+        display: block; 
     }
 
      /*Footer*/
@@ -193,12 +194,12 @@ body {
     .carrousel-right,
     .texte-right,
     .texte-left {
-        order: initial; /* Réinitialiser l'ordre pour les petits écrans */
+        order: initial; 
     }
 }
 
 @media (min-width: 768px) {
     .order-md-last {
-        order: 2; /* Définissez l'ordre désiré pour les écrans de taille moyenne et plus grands */
+        order: 2; 
     }
 }
