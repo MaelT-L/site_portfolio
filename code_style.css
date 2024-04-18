@@ -135,11 +135,7 @@ body {
     }
 
     /*Publications*/
-    .carousel-control-prev,
-    .carousel-control-next {
-        display: none;
-    }
-
+    
     .carousel-item {
         text-align: center;
     }
