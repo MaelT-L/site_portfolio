@@ -116,7 +116,7 @@ h1 {
 
 /*RESPONSIVE*/
 
-@media (max-width: 900px) {
+@media (max-width: 576px) {
     
     /*Navigation*/
     .link {
